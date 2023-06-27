@@ -19,7 +19,6 @@ public class MenuHarryPotter extends JFrame implements ActionListener {
 	 */
 	private static final long serialVersionUID = 1L;
 	private JLabel labelSubtitulo, imagen;
-    private JButton btnRegistro,btnSalir;
    	private String actor, name, dateOfBirth, house, image; 
    
     public MenuHarryPotter() throws IOException{
@@ -99,16 +98,6 @@ public class MenuHarryPotter extends JFrame implements ActionListener {
             labelSubtitulo.setText("Casa a la que pertenece: " +house);
             add(labelSubtitulo);
            
-            /*btnRegistro=new JButton();
-            btnRegistro.setBounds(120, 50, 150, 20);
-            btnRegistro.setText("Registrar");
-            add(btnRegistro);
-            btnRegistro.addActionListener(this);*/
-            
-
-
-
-       
      }
 
 	@Override
